@@ -11,6 +11,14 @@ ko:
       not_saved:
         one: "1개의 에러가 발생해서 %{resource}를(을) 저장할 수 없습니다:"
         other: "%{count}개의 에러가 발생해서 %{resource}를(을) 저장할 수 없습니다:"
+        
+  activerecord:
+    errors:
+      models:
+        users:
+          attributes:
+            email:
+              taken: '이미 가입한 이메일입니다.'
 
   devise:
     failure:
@@ -61,4 +69,6 @@ ko:
   # cancan
   unauthorized:
     default: "접근 권한이 없습니다."
+    
+   
 
